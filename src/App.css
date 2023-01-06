@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=M+PLUS+Rounded+1c:wght@300&family=Reggae+One&family=RocknRoll+One&display=swap');
+.App {
+  text-align: center;
+  padding-top: 5vh;
+}
+.bgimgbox{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  align-items: center;
+  z-index: -1;
+  opacity: 0.75;
+  transform: translate(-50%,-50%);
+}
+  .bgimg{
+    width: 50%;
+    transition: 0.25s;
+  }
+.loader{
+  display: flex;
+  position: fixed;
+  align-items: center;
+  left: 33vh;
+  top: 50vh;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: 5px solid #f3f3f3;
+  border-top: 6px solid rgb(135, 134, 134);
+  border-radius: 100%;
+  animation: spin 3s linear;
+}
+  .hideLoader{
+    display: none;
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+      to {
+        transform: rotate(360deg);
+    }
+  }

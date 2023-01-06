@@ -1,0 +1,74 @@
+.PokedexArea{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Pokedex{
+  width:100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  padding-top: 2rem
+}
+  .hidePokedex{
+    display: none;
+  }
+.generation{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.genCircle{
+  position: relative;
+  border: 5px solid;
+  border-color: #f00 #f00 #fff #fff;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  margin: 12px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+  .genCircle:hover{
+    opacity: 0.9;
+    overflow:visible;
+    animation: genImgHover 1s forwards;
+  }
+.genimg{
+  position: absolute;
+  top:-10%;
+  left:-10%;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  width: 120px;
+  height: 120px;
+}
+  @keyframes genImgHover {
+    to{scale:1.1}
+  }
+.loader{
+  display: flex;
+  position: fixed;
+  left: 50%;
+  top: 50vh;
+  z-index: 99;
+  width: 3rem;
+  height: 3rem;
+  border: 5px solid #f3f3f3;
+  border-top: 6px solid rgb(135, 134, 134);
+  border-radius: 100%;
+  animation: rotate 4s linear;
+}
+  .hideLoader{
+    display: none;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+      to {
+        transform: rotate(360deg);
+    }
+  }

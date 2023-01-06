@@ -1,0 +1,77 @@
+.PokemonDiv{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 30vh;
+    margin: 0.75rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
+    .PokemonDiv:hover{
+        background: rgba(255, 255, 255, 0.8);
+        border: 2px solid rgb(128, 0, 0);
+        box-shadow: 0 0 12px #f00;
+    }
+.pokemonDesc{
+    padding: 12px;
+    width: 50%;
+    height: 100%;
+    display: inline-block
+}
+.pokemonName{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'DotGothic16', sans-serif;
+}
+.pokemonType{
+    font-size: 1.25rem;
+    font-family: 'RocknRoll One', sans-serif;
+}
+/* .pokemonGenus{
+    font-weight: 500;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+} */
+.pokemonImg{
+    width: 50%;
+    object-fit: cover;
+    margin: auto;
+}
+
+@media screen and (max-width:1000px){
+    .pokemonDesc{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pokemonName{
+        font-size: 1rem;
+    }
+    .pokemonType{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:857px){
+    .PokemonDiv{
+        width: 40%;
+    }
+}
+@media screen and (max-width:550px){
+    .PokemonDiv{
+        width: 100%;
+    }
+    .pokemonImg{
+        width: 40%;
+    }
+    .pokemonDesc{
+        display: block;
+    }
+    .pokemonName{
+        font-size: 2rem;
+    }
+    .pokemonType{
+        font-size: 2rem;
+    }
+}
