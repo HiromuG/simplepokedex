@@ -29,7 +29,7 @@ function Pokedex() {
         loading();
         setTimeout(()=>{
           hideLoading()
-        },4000)
+        },3000)
     }
     ///////////////////
     
