@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/simplepokedex/static/css/main.d9aa637b.css",
+    "main.js": "/simplepokedex/static/js/main.805dde71.js",
+    "static/media/gen8.jpg": "/simplepokedex/static/media/gen8.1df35947854f60c90555.jpg",
+    "static/media/gen6.jpg": "/simplepokedex/static/media/gen6.74996e51ab6891a085f2.jpg",
+    "static/media/gen1.jpg": "/simplepokedex/static/media/gen1.7ff2accf8aa29f5677d7.jpg",
+    "static/media/gen3.jpg": "/simplepokedex/static/media/gen3.022b8e5f473d267b8204.jpg",
+    "static/media/gen4.jpg": "/simplepokedex/static/media/gen4.610268b60a32ea71c089.jpg",
+    "static/media/gen5.jpg": "/simplepokedex/static/media/gen5.bae578624a21ab9ca192.jpg",
+    "static/media/pokeball.png": "/simplepokedex/static/media/pokeball.48eea660ea67eb628341.png",
+    "static/media/gen7.jpg": "/simplepokedex/static/media/gen7.d5b8bdcf03515d89f7be.jpg",
+    "static/media/gen2.jpg": "/simplepokedex/static/media/gen2.7cc44a71bef0bd974d5b.jpg",
+    "index.html": "/simplepokedex/index.html",
+    "main.d9aa637b.css.map": "/simplepokedex/static/css/main.d9aa637b.css.map",
+    "main.805dde71.js.map": "/simplepokedex/static/js/main.805dde71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9aa637b.css",
+    "static/js/main.805dde71.js"
+  ]
+}
